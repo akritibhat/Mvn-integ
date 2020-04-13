@@ -10,7 +10,7 @@ public class DemoApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		Assert.assertEquals(1, 1);
+		Assert.assertEquals(1, 2);
 	}
 
 }
