@@ -20,7 +20,7 @@ public class DemoIntegTest {
 	 
 		@Test
 	    public void sampleIntegrationTest() {
-	        Assert.assertFalse(false);
+	        Assert.assertTrue(false);
 	    }
 		
 		 @Test
