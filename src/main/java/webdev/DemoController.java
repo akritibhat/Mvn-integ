@@ -14,7 +14,7 @@ public class DemoController {
   @GetMapping(value = "/{id}")
   public ResponseEntity<String> findEntity(@PathVariable String id) {
     //String entity = this.someBusinessService.findEntity(id);
-    return new ResponseEntity<>("Akriti", HttpStatus.OK);
+    return new ResponseEntity<>("Akriti", HttpStatus.OK)
   }
   
   
